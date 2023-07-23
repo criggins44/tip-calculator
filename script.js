@@ -6,6 +6,7 @@ function findTip(){
 	const tipAmount = document.getElementById('tipAmount');
 	const totalAmount = document.getElementById('totalAmount');
 	let convert = Number(percentage)/100;
+//converts bill variable from a string to a number, and then to a percentage
 
 	let tipDollars = Number(bill) * convert;
 	let grandTotal = Number(bill) + tipDollars;
