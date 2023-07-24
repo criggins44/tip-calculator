@@ -11,6 +11,6 @@ function findTip(){
 	let tipDollars = Number(bill) * convert;
 	let grandTotal = Number(bill) + tipDollars;
 
-	tipAmount.innerHTML = 'Tip Amount: $' + tipDollars;
+	tipAmount.innerHTML = 'Tip Amount: $' + tipDollars.toFixed(2);
 	totalAmount.innerHTML = 'Total Amount: $' + grandTotal;
 }
